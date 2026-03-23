@@ -53,3 +53,24 @@ Code is built into an application
 Tests are executed to check quality
 Application is deployed
 Monitoring ensures system health
+
+---
+
+## CI Pipeline Implementation (Practical)
+
+### What I Did:
+- Created GitHub Actions workflow (ci.yml)
+- Configured pipeline to trigger on push to main branch
+- Used ubuntu-latest runner
+- Implemented build and test steps
+
+### Workflow Steps:
+1. Checkout code
+2. Show project files
+3. Build step
+4. Test step
+
+### Result:
+- CI pipeline executed successfully
+- All steps completed successfully
+- Execution time: ~6 seconds
